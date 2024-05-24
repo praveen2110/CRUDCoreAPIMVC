@@ -72,7 +72,7 @@ namespace CRUDCoreAPIMVC.Controllers
 
             //Update the Data into the database
 
-            return NoContent();
+            return Ok();
         }
 
         // DELETE requests are used to remove a specific resource identified by a URI.
@@ -89,7 +89,7 @@ namespace CRUDCoreAPIMVC.Controllers
             //Remove the Product
             products.Remove(product);
 
-            return NoContent();
+            return Ok();
         }
 
         // PATCH requests are used for making partial updates to an existing resource.
