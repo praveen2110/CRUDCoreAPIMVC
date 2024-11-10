@@ -11,7 +11,7 @@
 // const para = document.getElementById("DemoJS");
 //     para.innerHTML = cars[2];
 
-
+//hjghfhg
 // console.log("Hello, this in in Console log")
 $(document).ready(function(){
     $("#get").click(function(){
